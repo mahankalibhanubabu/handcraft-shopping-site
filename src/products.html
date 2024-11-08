@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Crafts - Products</title>
+    <link rel="stylesheet" href="pstyles.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">Creative Crafts</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<section class="container">
+    <h2>Explore Our Products</h2>
+    <p>Browse our selection of handcrafted items, each made with care and skill by local artisans.</p>
+    <div class="product-grid">
+        <div class="product">
+            <img src="img1.jpg" alt="Handmade Pottery">
+            <h3>Handmade Pottery</h3>
+            <p class="price">$25.00</p>
+            <button onclick="addToCart('Handmade Pottery', 25)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img2.webp" alt="Wooden Sculpture">
+            <h3>Wooden Sculpture</h3>
+            <p class="price">$40.00</p>
+            <button onclick="addToCart('Wooden Sculpture', 40)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="img3.jpeg" alt="Woven Basket">
+            <h3>Woven Basket</h3>
+            <p class="price">$15.00</p>
+            <button onclick="addToCart('Woven Basket', 15)">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<footer>&copy; 2024 Creative Crafts</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
